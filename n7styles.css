@@ -119,11 +119,11 @@ a.button:hover{
     opacity:0; 
     overflow:hidden;
 }
-.alert-danger
-.alert-warning
-.alert-success
-.alert-info
-.alert-note
+.alert-danger,
+.alert-warning,
+.alert-success,
+.alert-info,
+.alert-note,
 .alert-inert{
     color: #3e6d87;
     font-family: courier, Helvetica, sans-serif;
