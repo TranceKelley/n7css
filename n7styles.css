@@ -1,235 +1,241 @@
 body{
-        width: 100%;
-        min-width: 100%;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        margin: 0;
-        padding: 0;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box; 
-        background-color: #f5f5f5;
+    width: 100%;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    background-color: #f5f5f5;
     }
-    body,
-    table.body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    td,
-    th,
-    a {
-      color: #4A4A4A;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: normal;
-      padding: 0;
-      margin: 0;
-      text-align: left;
-      line-height: 1.0; 
-      box-sizing: border-box;
-      border-collapse: collapse;
-    }
-    table.body{
-        width:700px;
-        margin:auto;
-        background-color: #f5f5f5;
-    }
-    a{
-        color: #910A2D;
-    }
-    h1{
-        font-size: 18px;
-        font-weight:bold;
-        margin-bottom:40px;
-    }
-    h2{
-        font-size: 14px;
-        font-weight:bold;
-        margin-top:14px;
-    }
-    p{
-        font-size: 14px;
-        margin-top:14px;
-        line-height: 1.4;
-    }
-    p.disclaimer{
-        font-size: 9px;
-        margin-top:10px
-    }
-    .header-component{
-        width: 100%;
-        background-color: #f5f5f5;
-        border-bottom: 1px solid #E3E3E3;
-    }
-    .dealership-logo{
-        height:160px;
-        position: relative;
-        vertical-align: middle;
-        padding: 15px;
-    }
-    .dealership-logo img{
-        max-height: 100%;
-        max-width: 100%;
-    }
-    .dealership-info{
-        width: 200px;
-        padding: 15px;
-    }
-    .dealership-name{
-        font-size: 20px;
-        margin: 0;
-        color: #010101;
-    }
-    .content-component{
-        padding: 15px 15px 25px;
-        background-color: #f5f5f5;
-    }
-    a.button{
-        font-size: 18px;
-        color: #FFF;
-        background-color: #000000;
-        display: inline-block;
-        line-height: 40px;
-        border-radius: 3px;
-        padding: 0 30px;
-        text-decoration: none;
-    }
-	a.button:hover{
-        background-color: #910A2D !important;
-    }
-    .footer-component td{
-        padding: 10px;
-    }
-    .powered-by{
-        position: relative;
-        margin-top: 0;
-    }
-    .preview-txt{
-        display:none !important; 
-        visibility:hidden; 
-        mso-hide:all; 
-        font-size:1px; 
-        color:#ffffff; 
-        line-height:1px; 
-        max-height:0px; 
-        max-width:0px; 
-        opacity:0; 
-        overflow:hidden;
-    }
-    .alert-danger{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #EBCCD1;
-        background-color: #F2DEDE;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
-    }
-    
-    .alert-warning{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #FAEBCC;
-        background-color: #FCF8E3;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
-    }
-    
-    .alert-success{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #D6E9C6;
-        background-color: #DFF0D8;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
-    }
-    
-    .alert-info{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #BCE8F1;
-        background-color: #D9EDF7;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
-    }
-    
-    .alert-note{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #FCF8E3;
-        background-color: #fff799;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
-    }
+body,
+table.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+td,
+th,
+a {
+    color: #4A4A4A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1.0; 
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+table.body{
+    width:700px;
+    margin:auto;
+    background-color: #f5f5f5;
+}
+a{
+    color: #910A2D;
+}
+h1{
+    font-size: 18px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+h2{
+    font-size: 14px;
+    font-weight:bold;
+    margin-top:14px;
+}
+p{
+    font-size: 14px;
+    margin-top:14px;
+    line-height: 1.4;
+}
+p.disclaimer{
+    font-size: 9px;
+    margin-top:10px
+}
+.header-component{
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #E3E3E3;
+}
+.dealership-logo{
+    height:160px;
+    position: relative;
+    vertical-align: middle;
+    padding: 15px;
+}
+.dealership-logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.dealership-info{
+    width: 200px;
+    padding: 15px;
+}
+.dealership-name{
+    font-size: 20px;
+    margin: 0;
+    color: #010101;
+}
+.content-component{
+    padding: 15px 15px 25px;
+    background-color: #f5f5f5;
+}
+a.button{
+    font-size: 18px;
+    color: #FFF;
+    background-color: #000000;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+a.button:hover{
+    background-color: #910A2D !important;
+}
+.footer-component td{
+    padding: 10px;
+}
+.powered-by{
+    position: relative;
+    margin-top: 0;
+}
+.preview-txt{
+    display:none !important; 
+    visibility:hidden; 
+    mso-hide:all; 
+    font-size:1px; 
+    color:#ffffff; 
+    line-height:1px; 
+    max-height:0px; 
+    max-width:0px; 
+    opacity:0; 
+    overflow:hidden;
+}
+.alert-danger{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #EBCCD1;
+    background-color: #F2DEDE;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
 
-    .alert-inert{
-        color: #3e6d87;font-family: courier, Helvetica, sans-serif;
-        font-weight: normal;
-        padding: 0 30px;
-        margin: 0;
-        text-align: left;
-        line-height: 1.4;
-        box-sizing: border-box;
-        border-collapse: collapse;
-        font-size: 14px;
-        border: 1px solid #E7E7E7;
-        background-color: #D6E9C6;
-        display: inline-block;
-        border-radius: 3px;
-        text-decoration: none;
-        margin-top: 14px;
+.alert-warning{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #FAEBCC;
+    background-color: #FCF8E3;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.alert-success{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #D6E9C6;
+    background-color: #DFF0D8;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.alert-info{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #BCE8F1;
+    background-color: #D9EDF7;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.alert-note{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #FCF8E3;
+    background-color: #fff799;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.alert-inert{
+    color: #3e6d87;
+    font-family: courier, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+    background-color: #D6E9C6;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+    table.body {
+        min-width:320px;
+        width:initial !important;
     }
-    
-    @media only screen and (max-width: 700px) {
-        table.body {
-            min-width:320px;
-            width:initial !important;
-        }
-    }
+}
