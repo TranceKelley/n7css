@@ -43,14 +43,18 @@ a{
 h1{
     font-size: 18px;
     font-weight:bold;
+
+    margin:14px 7px;
 }
 h2{
     font-size: 14px;
     font-weight:bold;
+    margin-top:14px;
     color: #488eb3;
 }
 p{
     font-size: 14px;
+    margin:14px 7px;
     line-height: 1.4;
 }
 p.disclaimer{
@@ -78,6 +82,7 @@ td.disclaimer{
 }
 .dealership-info{
     width: 200px;
+    margin:14px 7px;
 }
 .dealership-name{
     font-size: 20px;
