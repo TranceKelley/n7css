@@ -28,7 +28,7 @@ a {
     padding: 0;
     margin: 0;
     text-align: left;
-    line-height: 1.0; 
+    line-height: 1.2; 
     box-sizing: border-box;
     border-collapse: collapse;
 }
@@ -43,21 +43,26 @@ a{
 h1{
     font-size: 18px;
     font-weight:bold;
-    margin-bottom:40px;
+    margin:14px 7px;
 }
 h2{
     font-size: 14px;
     font-weight:bold;
     margin-top:14px;
+    color: #488eb3;
 }
 p{
     font-size: 14px;
-    margin-top:14px;
+    margin:14px 7px;
     line-height: 1.4;
 }
 p.disclaimer{
     font-size: 9px;
-    margin-top:10px
+    margin-top:10px;
+    line-height: 1.0;
+}
+td.disclaimer{
+    background-color: #CCCCCC;
 }
 .header-component{
     width: 100%;
@@ -76,7 +81,8 @@ p.disclaimer{
 }
 .dealership-info{
     width: 200px;
-    padding: 15px;
+
+    margin:14px 7px;
 }
 .dealership-name{
     font-size: 20px;
@@ -125,11 +131,12 @@ a.button:hover{
 .alert-info,
 .alert-note,
 .alert-inert{
+    width: 650px;
     color: #3e6d87;
     font-family: courier, Helvetica, sans-serif;
     font-weight: normal;
-    padding: 0 30px;
-    margin: 0;
+    padding: 0 5px;
+    margin: 10;
     text-align: left;
     line-height: 1.4;
     box-sizing: border-box;
@@ -145,16 +152,16 @@ a.button:hover{
     background-color: #F2DEDE;
 }
 .alert-warning{
-    border: 1px solid #FAEBCC;
-    background-color: #FCF8E3;
+    border: 1px solid #FADBA9;
+    background-color: #FCEDD4;
 }
 .alert-success{
     border: 1px solid #D6E9C6;
     background-color: #DFF0D8;
 }
 .alert-info{
-    border: 1px solid #BCE8F1;
-    background-color: #D9EDF7;
+    border: 1px solid #B2CDDD;
+    background-color: #D9E6EE;
 }
 .alert-note{
     border: 1px solid #FCF8E3;
@@ -163,6 +170,17 @@ a.button:hover{
 .alert-inert{
     border: 1px solid #E7E7E7;
     background-color: #D6E9C6;
+}
+.footer-link{
+    color: #3F83AA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1.0;
+    box-sizing: border-box;
+    border-collapse: collapse;
 }
 @media only screen and (max-width: 700px) {
     table.body {
