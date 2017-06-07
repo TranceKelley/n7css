@@ -43,7 +43,6 @@ a{
 h1{
     font-size: 18px;
     font-weight:bold;
-
     margin:14px 7px;
 }
 h2{
@@ -96,7 +95,7 @@ td.disclaimer{
 a.button{
     font-size: 18px;
     color: #FFF;
-    background-color: #000000;
+    background-color: #659CBB;
     display: inline-block;
     line-height: 40px;
     border-radius: 3px;
