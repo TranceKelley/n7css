@@ -1,218 +1,156 @@
-body{
-    width: 100%;
-    min-width: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; 
-    background-color: #f5f5f5;
-    }
-body,
-table.body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-td,
-th,
-a {
-    color: #4A4A4A;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    margin: 0;
-    padding: 0px;
-    text-align: left;
-    line-height: 1.2; 
-    box-sizing: border-box;
-    border-collapse: collapse;
-}
-table.body{
-    width: 700px;
-    margin:auto;
-    background-color: #f5f5f5;
-}
-a{
-    color: #910A2D;
-}
-h1.has-padding,
-h2.has-padding,
-p.has-padding{
-    padding-left: 15px;
-}
+<style type="text/css">		
+		.ReadMsgBody { width: 100%; background-color: #ffffff; }
+		.ExternalClass { width: 100%; background-color: #ffffff; }
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+		html { width: 100%; }
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+		table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing: 0;}
 
-td.has-padding{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-h1{
-    font-size: 18px;
-    font-weight:bold;
-}
-h2{
-    font-size: 14px;
-    font-weight:bold;
-    color: #488eb3;
-}
-p{
-    font-size: 14px;
-    line-height: 1.4;
-}
-p.disclaimer{
-    font-size: 9px;
-    margin-top:10px;
-    line-height: 1.0;
-}
-td.disclaimer{
-    background-color: #CCCCCC;
-}
-.header-component{
-    width: 100%;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #E3E3E3;
-}
-.dealership-logo{
-    height: 160px;
-    position: relative;
-    vertical-align: middle;
-    padding: 15px;
-}
-.dealership-logo img{
-    max-height: 100%;
-    max-width: 100%;
-    border: 0;
-}
-.dealership-info{
-    width: 200px;
-}
-.dealership-name{
-    font-size: 20px;
-    margin: 0;
-    color: #010101;
-}
-.content-component{
-    padding: 15px 15px 25px;
-    background-color: #f5f5f5;
-}
-a.button{
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #659CBB;
-    display: inline-block;
-    line-height: 40px;
-    border-radius: 3px;
-    padding: 0 30px;
-    text-decoration: none;
-}
-a.button:hover{
-    background-color: #910A2D !important;
-}
-.footer-component td{
-    padding: 10px;
-}
-.powered-by{
-    position: relative;
-    margin-top: 0;
-}
-.preview-txt{
-    display:none !important; 
-    visibility:hidden; 
-    mso-hide: all; 
-    font-size:1px; 
-    color:#ffffff; 
-    line-height:1px; 
-    max-height:0px; 
-    max-width:0px; 
-    opacity:0; 
-    overflow:hidden;
-}
-.alert-danger,
-.alert-warning,
-.alert-success,
-.alert-info,
-.alert-note,
-.alert-inert{
-    width: 650px;
-    color: #3e6d87;
-    font-family: courier, Helvetica, sans-serif;
-    font-weight: normal;
-    padding: 5px 10px;
-    margin: 5px 10px;
-    text-align: left;
-    line-height: 24px;
-    border-collapse: collapse;
-    font-size: 14px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-top: 14px;
-}
-.alert-danger{
-    border: 1px solid #EBCCD1;
-    background-color: #F2DEDE;
-}
-.alert-warning{
-    border: 1px solid #FADBA9;
-    background-color: #FCEDD4;
-}
-.alert-success{
-    border: 1px solid #D6E9C6;
-    background-color: #DFF0D8;
-}
-.alert-info{
-    border: 1px solid #B2CDDD;
-    background-color: #D9E6EE;
-}
-.alert-note{
-    border: 1px solid #FCF8E3;
-    background-color: #fff799;
-}
-.alert-inert{
-    border: 1px solid #E7E7E7;
-    background-color: #D6E9C6;
-}
-.footer-link{
-    color: #3F83AA;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    line-height: 1.0;    
-    border-collapse: collapse;
-}
+		img { display: block !important; overflow: hidden !important; max-width: 100% !important; height: auto !important; line-height: 0px; font-size: 0px; border:0px;}
+		table td { border-collapse: collapse; }
+		a{
+			color: #659CBB; text-decoration:none;
+		}		
+
+		h1{font-size: 18px; font-weight: bold; margin: 0;}
+		h2{font-size: 14px; font-weight: bold; margin: 0;}
+		p{margin: 0;}
+		td{color: #4A4A4A; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; text-align: left;}
+
+		
+		body.main{background-color: #e3e3e3;}		
+		table.main-table{background-color: #e3e3e3; width: 100%;}
+		table.full-width{width: 100%;}
+		table{cellpadding: 0; cellspacing: 0; border: 0; align: center; border-spacing: 0; border-collapse: collapse;}
+		table.main-container{cellpadding: 5px; margin: auto;}
+		td.header, td.has-padding{background-color: #ffffff;}
+		td{vertical-align: top; text-align: left; align: left;}
+		img{border: 0;}
 
 
-@media only screen and (max-width: 640px) {
-    table.body {
-        width: 100% !important;
-        line-height: 24px;
-    }
+		table.box-container{width: 700px;}
+		table.main-container{width: 670px;}
+		td.preview-txt{
+			display:none !important; 
+			visibility:hidden; 
+			mso-hide: all; 
+			font-size:1px; 
+			color:#ffffff; 
+			line-height:1px; 
+			max-height:0px; 
+			max-width:0px; 
+			opacity:0; 
+			overflow:hidden;
+		}
 
-    .alert-danger,
-    .alert-warning,
-    .alert-success,
-    .alert-info,
-    .alert-note,
-    .alert-inert{
-        width: 100% !important;
-        margin: auto !important;
-    }
+		td.disclaimer{
+			color: #4a4a4a; 
+			font-family: Helvetica, Arial, sans-serif; 
+			font-size: 9px; 
+			line-height: 16px; 
+			font-weight: 400;
+		}
 
-    .dealership-logo,
-    .dealership-info{
-        width: 49%;
-    }
-}
-@media only screen and (max-width: 480px) {
-   a.button{
-       font-size: 16px;
-       line-height: 36px;
-       padding: 0 20px;
-   }
-}
+		td.dealership-info{
+			color: #4A4A4A; 
+			font-family: Helvetica, Arial, sans-serif; 
+			font-size: 14px; 
+			line-height: 20px; 
+			font-weight: normal; 
+			text-align: left;
+			width: 180px;
+		}
+
+		.alert-danger, 
+		.alert-warning, 
+		.alert-success, 
+		.alert-info, 
+		.alert-note, 
+		.alert-inert {
+		    font-family: Helvetica, Arial, sans-serif;
+		    font-weight: normal;
+		    padding: 5px 10px;
+		    line-height: 24px;
+		    font-size: 14px;
+		    -webkit-border-radius: 3px !important;
+		    -moz-border-radius: 3px !important;
+		    border-radius: 3px !important;
+
+		}
+
+		.alert-danger{
+            background-color: #F2DEDE;
+        }
+        .alert-warning{
+            background-color: #FCEDD4;
+        }
+        .alert-success{
+            background-color: #DFF0D8;
+        }
+        .alert-info{
+            background-color: #D9E6EE;
+        }
+        .alert-note{
+            background-color: #fff799;
+        }
+        .alert-inert{
+            background-color: #D6E9C6;
+        }
+
+		table.btn-table{			
+			background-clip: padding-box; 
+			background-color: #369cce;
+			-webkit-border-radius: 3px; 
+			-moz-border-radius: 3px; 
+			border-radius: 3px;
+			width: 225px;
+		}
+
+        td.btn-td{
+        	height: 46px;
+			font-size: 18px;
+            color: #ffffff;
+            background-color: #659CBB;
+            line-height: 18px;
+            -webkit-border-radius: 3px; 
+			-moz-border-radius: 3px; 
+			border-radius: 3px;
+			text-align: center;
+			vertical-align: middle;
+        }
+
+        a.button{
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            text-align: center;
+            background-color: transparent;
+        }
+
+        .nissan {
+        	background-color: #AD1037;
+        }
+
+        .normal {color: #ff0000; font-size: 15px; line-height: 24px; font-weight: normal;}
+		.important {text-decoration: underline; background-color: #ffff00; font-weight: bold !important;}
+		
+		td.rowgap{height: 20px;font-size:1px; line-height:1px; mso-line-height-rule: exactly;}
+		td.td-gutter{width: 10px;}
+		
+        .header{ border-bottom: 1px solid #e3e3e3;}
+		
+		/*Responsive*/
+		 @media only screen and (max-width: 640px) {
+		 	img{width: 100% !important; height: auto !important;}		 	
+			body { width: auto !important; text-align: center!important;}
+			table[class="box-container"] { width: 90% !important; }
+			table[class="main-container"] { width: 90% !important; }
+
+			td[class="dealership-logo"]{width: 40% !important;}
+		}
+
+		@media only screen and (max-width: 479px) {
+			table[class="box-container"] { width: 100% !important; }
+			table[class="main-container"] { width: 92% !important; }
+		}
+	</style>
