@@ -131,6 +131,10 @@
         	background-color: #AD1037;
         }
 
+        .ford {
+        	background-color: #1351d8;
+        }
+
         .normal {color: #ff0000; font-size: 15px; line-height: 24px; font-weight: normal;}
 		.important {text-decoration: underline; background-color: #ffff00; font-weight: bold !important;}
 		
